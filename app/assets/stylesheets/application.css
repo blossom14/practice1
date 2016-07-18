@@ -1,0 +1,48 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+h1
+{
+font-family: Georgia,serif;	
+color: white;
+background-color: brown;
+text-align: center;
+}
+
+h2
+{
+	text-align: right;
+}
+
+p
+{
+font-size: 30px;
+color: grey;
+}
+
+.hero {
+	background-image: 
+	url('data:image/jpeg;base64,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');
+	background-size: cover;
+	text-align: center;
+
+.heroin {
+	text-align: center;
+}
+
+
+
